@@ -11,6 +11,7 @@ sparkVariants {
     capabilityGroup 'org.elasticsearch.spark.sql.variant'
     setDefaultVariant "spark13scala211", spark13Version, scala211Version
     addFeatureVariant "spark13scala210", spark13Version, scala210Version
+    addFeatureVariant "spark13scala212", spark13Version, scala211Version
 
     all { SparkVariantPlugin.SparkVariant variant ->
         String scalaCompileTaskName = project.sourceSets

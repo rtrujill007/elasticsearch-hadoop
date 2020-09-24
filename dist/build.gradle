@@ -6,7 +6,7 @@ apply plugin: 'es.hadoop.build'
 description = "Elasticsearch for Apache Hadoop"
 project.archivesBaseName = 'elasticsearch-hadoop'
 
-def sparkVariantIncluded = 'spark20scala211'
+def sparkVariantIncluded = 'spark20scala212'
 
 configurations {
     embedded {
